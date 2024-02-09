@@ -1,6 +1,6 @@
 const express = require("express")
 const router = express.Router()
-const signupModel = require("../model/blogModels")
+const signupModel = require("../models/blogmodels")
 const bcrypt = require("bcryptjs")
 
 hashedPasswordGenerator = async (pass) => {
